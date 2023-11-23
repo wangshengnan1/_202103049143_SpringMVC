@@ -11,9 +11,6 @@
     <title>失败页面</title>
 </head>
 <body>
-<script>
-    let 文件上传失败;
-    文件上传失败</script>
 <h1>上传文件失败！</h1>
 <a href="upload.jsp">返回</a>
 <p>注：</p>

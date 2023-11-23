@@ -14,9 +14,6 @@
 </style>
 <title>成功页面</title>
 <body>
-<script>
-    let 文件上传成功;
-    文件上传成功</script>
 <h1>上传成功！</h1>
 <hr><hr>
 
@@ -29,7 +26,9 @@
         String Filesize=(String) filesize.get(a);
         String Fileextension=(String) fileextension.get(a);
 %><div id="center">
-<b><% int b=a+1;out.print("图片"+b+":");%></b>
+<b>
+    图片${a+1}:
+</b>
 <p><%= Filename%></p>
 <p><%= Filesize%></p>
 <p><%= Fileextension%></p>
