@@ -27,7 +27,7 @@
         String Fileextension=(String) fileextension.get(a);
 %><div id="center">
 <b>
-    图片${a+1}:
+   <% int b=a+1;out.print("图片"+b+":"); %>
 </b>
 <p><%= Filename%></p>
 <p><%= Filesize%></p>
@@ -37,6 +37,5 @@
 <%
     }
 %>
-
 </body>
 </html>

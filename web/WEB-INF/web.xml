@@ -13,7 +13,6 @@
 
         </init-param>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>springmvc</servlet-name>
         <url-pattern>/</url-pattern>
@@ -26,6 +25,4 @@
         <servlet-name>default</servlet-name>
         <url-pattern>*.jpg</url-pattern>
     </servlet-mapping>
-
-
 </web-app>
